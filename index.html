@@ -8,8 +8,30 @@
     <title>Group 9</title>
 </head>
 <body>
-    <div class="nav">
-        
+    <div class="nav-bar">
+        <div class="logo">ACEdev</div>
+        <div class="nav">
+            <a class ="navlink" href="#">WORK</a>
+            <a class ="navlink" href="#">CAPABILITIES</a>
+            <a class ="navlink" href="#members-header">ABOUT</a>
+            <a class ="navlink" href="#">CONTACT</a>
+        </div>
+    </div>
+    
+    <div id="menuextend-mobile">
+        <a class ="navlink-mobile" href="#">WORK</a>
+        <a class ="navlink-mobile" href="#">CAPABILITIES</a>
+        <a class ="navlink-mobile" href="#">ABOUT</a>
+        <a class ="navlink-mobile" href="#">CONTACT</a>
+        <a class ="navlink-mobile" href="#">PRIVATE POLICY</a>
+    </div>
+
+    <div class= "mobile-header">
+        <div class="logo">ACEdev</div>
+        <div class="container" href="#" onclick="toggleFunction(this)">
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
     </div>
     <div class="header">
         <img class="banner" src="images/man-working-table.jpg">
@@ -19,7 +41,7 @@
             efficient in an agile development environment.
         </div>
     </div>
-    <div class="members-header">THE TEAM</div>
+    <div id="members-header">THE TEAM</div>
     <div class="members">
         
         <div class = "member-element">
@@ -68,5 +90,6 @@
             </div>
         </div>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
